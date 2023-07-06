@@ -1,0 +1,2 @@
+defmodule BattleMap do
+end
