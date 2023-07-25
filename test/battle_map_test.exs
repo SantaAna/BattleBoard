@@ -89,7 +89,7 @@ defmodule BattleMapTest do
     """
     test "can attack in west facing cone" do
       cone_caster = %ConeCaster{facing: :west}
-      test_cases = [
+       test_cases = [
         %{origin: {0,0}, target: {-1,0}},
         %{origin: {0,0}, target: {-1,1}},
         %{origin: {0,0}, target: {-2,-2}},
